@@ -420,7 +420,7 @@ export default {
       this.$refs.fullpage.api.moveTo(2)
     },
     // tellUs(){
-    //   window.open("http://www.manbet5858.com/help/contact")
+    //   window.top.open("http://www.manbet5858.com/help/contact")
     // },
     changeBtn(index){
       this.gameIndex = index
