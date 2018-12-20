@@ -11,9 +11,10 @@
       <p>们</p></div>
       <div class="tellUsTextBox"> 
         <p class="tellUsText">
-          <span class="tellUsIcon"><img src="../image/mobile-phone.png" alt=""></span>
-          <span class="tellUsContent">  +63 980399992
-</span>
+          <a href="mailto:mxheying＠gmail.com">
+          <span class="tellUsIcon"><img src="../image/mail.jpg" alt=""></span>
+          <span class="tellUsContent">mxheying＠gmail.com</span>
+          </a>
         </p>
         <p class="tellUsText changeCCC">
           <a href="skype:pilika666@163.com?chat">
@@ -29,7 +30,7 @@
     <div class="page pageBox1 section">
       <div class="center">
         <video muted autoplay loop name="media" ref="myVideo" class="pageBox1Video">
-          <source src="../assets/moive1.mp4" type="video/mp4">
+          <source src="../assets/video.mp4" type="video/mp4">
           您的浏览器不支持 video 标签。
         </video>
         <div class="clickTo" @click="clickTo">
@@ -126,7 +127,7 @@
                <swiper-slide class="list slide4">
                  <div class="slide4MediaBox">
                     <video controls name="media1" ref="myVideo1" class="myVideo1">
-                      <source src="../assets/moive1.mp4" type="video/mp4">
+                      <source src="../assets/video.mp4" type="video/mp4">
                       您的浏览器不支持 video 标签。
                     </video>
                  </div>
@@ -145,7 +146,17 @@
       </div>
     </div>
     <div class="page pageBox5 section">
+      
       <div class="pageBox5ItemBox">
+         <div class="pageBox5Item">
+          <div class="pageBox5ItemImgBox"><img src="../image/9.png" alt=""></div>
+          <div class="pageBox5ItemText">
+            <div><p class="pageBox5Item27">尤文图斯足球俱乐部</p>
+            <p class="pageBox5Item27 letter3">亚洲官方合作伙伴</p></div>
+            
+          </div>
+        </div>
+        <div class="pageBox5Line"><img src="../image/divider.png" alt=""></div>
         <div class="pageBox5Item">
           <div class="pageBox5ItemImgBox"><img src="../image/1.png" alt=""></div>
           <div class="pageBox5ItemText">
@@ -525,9 +536,12 @@ export default {
           height 32px
           vertical-align middle
           margin-left 10px
+          line-height 32px
+          
           img
-            width 100%
-            height 100%
+            max-width 100%
+            max-height 100%
+            vertical-align middle
         .tellUsContent
           display inline-block
           height 32px
@@ -866,6 +880,8 @@ to {transform :translateY(0) }
             letter-spacing 4px
           .letter2
             letter-spacing 2px
+          .letter3
+            letter-spacing 3px
           &.cenLeft
             text-align left 
         .pageBox5ItemImgBox
