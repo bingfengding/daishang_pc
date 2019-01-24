@@ -17,9 +17,9 @@
           </a>
         </p>
         <p class="tellUsText changeCCC">
-          <a href="skype:pilika666@163.com?chat">
+          <a href="skype:live:pilika666?chat">
           <span class="tellUsIcon"><img src="../image/skype.png" alt=""></span>
-            <span class="tellUsContent">pilika666@163.com</span>
+            <span class="tellUsContent">pilika666</span>
           </a>
         </p> 
       </div>
@@ -587,6 +587,7 @@ to {transform :translateY(0) }
       .pageBox1Video
         min-width 100%
         min-height 100%
+        background url("../image/video-bg.jpg") no-repeat center/cover
       .clickTo
         position absolute
         left 50%
